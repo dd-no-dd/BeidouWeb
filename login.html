@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册或者登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="images/favicon.ico"> <!--网站图标-->
+    <script src="./assets/js/jquery.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <div class="container" id="login-box">
+
+        <div class="form-container sign-up-container">
+            <form>
+                <h1>注册</h1>
+                <div class="txtb">
+                    <input type="text" id="username" required>
+                    <span id='ip1' data-placeholder="账户"></span>
+                    <img class="right" id='yzuser' src="images/对勾小.png">
+                </div>
+                <!--错误消息提示-->
+                <div id="imply1" style="text-align: left;display:none; color: red;"></div>
+
+                <div class="txtb">
+                    <input type="email" id="email" required>
+                    <span data-placeholder="邮箱"></span>
+                    <img class="right" id='yzmail' src="images/对勾小.png">
+                </div>
+
+                <div id="imply2" style="text-align: left;display:none; color: red;"></div>
+
+                <div class="txtb">
+                    <input type="password" id='pwd1' required>
+                    <span data-placeholder="密码"></span>
+                    <img class="right" id='yzmm' src="images/对勾小.png">
+                </div>
+
+                <div id="imply3" style="text-align: left;display:none; color: red;"></div>
+
+                <div class="txtb">
+                    <input type="password" id='pwd2' required>
+                    <span data-placeholder="确认密码"></span>
+                    <img class="right" id='yzmmmm' src="images/对勾小.png">
+                </div>
+
+                <div id="imply4" style="text-align: left;display:none; color: red;"></div>
+
+                <div id="yz">
+                    <a style="font-size: large;">验证码&nbsp</a>
+                    <input type="text" id="in">
+                    <a id="code"></a>
+                    <img id="yanzheng" src="images/对勾小.png">
+                </div>
+                <div id="imply5" style="text-align: left;display:none; color: red;">yes</div>
+                <button>注册</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="base.html">
+                <h1>登录</h1>
+                <div class="txtb">
+                    <input type="text">
+                    <span data-placeholder="账户"></span>
+                </div>
+                <div class="txtb">
+                    <input type="password">
+                    <span data-placeholder="密码"></span>
+                </div>
+                </br>
+                <button>登录</button>
+                <a id="visit" href="main/main.html">以访客模式登入</a>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>已有账号？</h1>
+                    <p>使用您的账号进行登录</p>
+                    <button class="ghost" id="signIn">登录</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>没有账号?</h1>
+                    <p>立即注册加入我们,开始北斗之旅</p>
+                    <button class="ghost" id="signUp">注册</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+</html>

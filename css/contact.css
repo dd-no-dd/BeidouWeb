@@ -1,0 +1,118 @@
+.conts {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conts .lixleft {
+    width: 65%;
+}
+
+.conts .lixright .lixmap {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.lixright .lixmap h2 {
+    text-align: right;
+    color: #000000;
+}
+
+.conts .lixright {
+    width: 30%;
+}
+
+.lixliuyan {
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+.lixliuyan form {
+    width: 100%;
+    margin: 30px 0;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px #00000073;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lixliuyan label {
+    margin-bottom: 30px;
+}
+
+.lixliuyan label span {
+    color: #5E5E5E;
+}
+
+.lixliuyan input {
+    height: 60px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    margin-bottom: 30px;
+}
+
+.lixliuyan textarea {
+    height: 120px;
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.lixliuyan .button {
+    background-color: #00b3ff;
+    color: #FFF;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.liuyanlist {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.liuyanlist li {
+    line-height: 30px;
+    box-shadow: 1px 1px 6px #00000073;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.liuyanlist li span {
+    margin-left: 50px;
+}
+
+.hr {
+    width: 100px;
+    height: 3px;
+    background-color: #8ae6ff;
+    margin: 20px auto;
+}
+
+.title {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.title h1 {
+    font-size: 35px;
+
+}
+
+.lixliuyan h1 {
+    font-size: 35px;
+
+}

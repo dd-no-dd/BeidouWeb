@@ -1,0 +1,86 @@
+.continfo {
+    width: 1200px;
+
+    margin: 50px auto;
+}
+
+.search {
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 60%;
+    margin: 50px auto 0px;
+    border: 1px solid rgb(106, 106, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search .sput {
+    float: left;
+    width: 85%;
+    height: 40px;
+    line-height: 16px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #ffffff;
+    color: #999;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.search .lib {
+    float: left;
+    width: 10%;
+    height: 30px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: rgb(255, 255, 255) url(../images/search2.png) no-repeat 12px 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.infolist {
+    width: 100%;
+}
+
+.infolist li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 60px;
+    margin-top: 50px;
+    border: 1px solid #337ab7;
+}
+
+.infolist li h3 {
+    width: 100%;
+    background-color: #337ab7;
+    padding: 10px 20px;
+    color: white;
+    margin: 0;
+}
+
+.infolist li a {
+    margin-left: 20px;
+}
+
+.infolist li p {
+    margin-left: 20px;
+}
+
+.page {
+    display: flex;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-size: large;
+}

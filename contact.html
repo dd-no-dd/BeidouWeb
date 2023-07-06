@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="./assets/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/bar.css">
+  <link rel="shortcut icon" href="images/favicon.ico"> <!--网站图标-->
+  <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="logo">
+        <a href="main/main.html">
+          <img src="images/logo(1).png" />
+        </a>
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="system.html">系统介绍</a>
+        </li>
+        <li>
+          <a href="history.html">发展之路</a>
+        </li>
+        <li>
+          <a href="info.html">新闻资讯</a>
+        </li>
+        <li>
+          <a href="voting.html">共建北斗</a>
+        </li>
+        <li>
+          <a href="contact.html">联系我们</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main style="margin-top: 174px;">
+    <div class="conts">
+      <!--百度地图容器-->
+      <div class="lixleft">
+        <div style="width:100%;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+
+      </div>
+      <div class="lixright">
+        <h2>联系方式</h2>
+        <div class="lixmap">
+          <p>中国 湖北 武汉</p>
+          <p>洪山区珞狮路122号</p><br>
+          <p>电话: +123 456 789</p>
+          <p>传真: +987 654 321</p>
+          <p>weixin: 我在线上</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lixliuyan">
+      <h1 style="color:#000000">留言</h1>
+      <form>
+        <label><span><input id="name" type="text" name="name" placeholder="您的姓名" /> </span></label>
+        <label>
+          <span><input id="names" type="text" name="name" placeholder="联系电话"></span>
+          <span id="imply" style="position: relative; bottom: 10px; display: none; color: red;">nihao</span>
+        </label>
+        <label><span><textarea id="message" name="message" placeholder="留言内容"></textarea> </span></label>
+        <label><span><input type="button" class="button" value="发表留言" id="btn" /></span> </label>
+      </form>
+      <h1 style="color:#000000">留言列表</h1>
+      <ul class="liuyanlist">
+        <li>
+          <p>姓名：test</p>
+          <p>留言内容：web design is a ride</p>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      Copyright &copy; 2023北斗卫星综合信息网 版权所有
+    </div>
+  </footer>
+
+</body>
+<script type="text/javascript" src="js/contact.js"></script>
+
+</html>
